@@ -1,0 +1,85 @@
+.sidebarContainer {
+  background-color: rgb(91, 196, 238);
+  background: linear-gradient(120deg, rgb(8, 8, 73) 28%, rgb(38, 15, 80) 93%);
+  position: fixed;
+  height: 100vh;
+  display: block;
+}
+
+.accordion-item {
+  border: none;
+  background: none;
+}
+.accordion-button {
+  background: none;
+}
+
+.accordion-body {
+  border: none;
+}
+.accordion-header {
+  background: none;
+}
+.dashboardList li {
+  line-height: 30px;
+  list-style: none;
+  margin-top: 10px;
+  padding: 5px;
+  background: none;
+  font-weight: 200;
+  border-bottom: 1px solid #eaec4e;
+}
+.dashboardList li:hover {
+  background-color: rgb(255, 98, 125);
+  color: white;
+}
+
+.dashboardList a li {
+  color: white;
+}
+
+/* Responsive */
+
+.sidebarContainerResponsive {
+  background-color: rgb(91, 196, 238);
+  background: linear-gradient(120deg, rgb(8, 8, 73) 28%, rgb(38, 15, 80) 93%);
+  display: none;
+  width: 100%;
+}
+
+.sidebarCollups {
+}
+
+@media only screen and (max-width: 800px) {
+  .sidebarContainer {
+    display: none;
+  }
+  .sidebarContainerResponsive {
+    display: block;
+  }
+}
+/* .sidebarMenu {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+} */
+
+.closeBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebarMenu{
+  position: absolute;
+  right: 3%;
+  padding: 10px;
+  display: none;
+
+}
+
+@media screen and (max-width: 800px) {
+  .sidebarMenu {
+    display: block;
+  }
+}

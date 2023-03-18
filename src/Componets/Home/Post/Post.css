@@ -1,0 +1,68 @@
+.postProfile img {
+  width: 70px;
+  height: 70px;
+  background-color: aqua;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.homePost {
+  height: 50px;
+}
+.writePost {
+  height: 6rem;
+}
+.postBtn {
+  margin-top: 10px;
+  width: 800px;
+  margin: auto;
+  font-size: 30px;
+}
+
+.writeContainer {
+  background-color: rgb(194, 191, 191);
+  height: 100%;
+  padding: 40px 20px;
+  width: 75%;
+}
+.profileName h6 {
+  background-color: rgb(92, 91, 91);
+  width: 80px;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  border-radius: 3px;
+  font-weight: 100;
+}
+.reactPhoto{
+  margin-top: 40px;
+  width: 100%;
+  border: 1px solid rgb(156, 154, 154);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(53, 52, 52);
+
+}
+.fileUpload{
+  display: none;
+  visibility: none;
+}
+.inputLabel{
+  cursor: pointer;
+  color: rgb(34, 155, 4);
+}
+.inputLabel:hover{
+  cursor: pointer;
+  color: rgb(57, 95, 47);
+}
+
+.emoji{
+  cursor: pointer;
+  color: rgb(173, 74, 240);
+}

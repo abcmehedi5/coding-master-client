@@ -1,0 +1,34 @@
+.addTeacher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 97vh;
+  background-color: #fcd4a6;
+}
+.addTeacher form {
+  color: white;
+  background-color: rgb(20, 53, 68);
+  border-radius: 10px;
+  padding: 30px;
+}
+.AddTBtn {
+  width: 100%;
+  background: linear-gradient(
+    120deg,
+    rgb(166, 166, 240) 28%,
+    rgb(8, 136, 168) 93%
+  );
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.AddTBtn:hover {
+  width: 100%;
+  background: linear-gradient(
+    120deg,
+    rgb(254, 254, 255) 28%,
+    rgb(19, 193, 236) 93%
+  );
+}

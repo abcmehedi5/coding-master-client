@@ -1,0 +1,17 @@
+.accordionStyle{
+    background-color: rgb(253, 237, 208);
+    border: 1px solid black;
+}
+.accordionList{
+    background-color: rgb(195, 210, 250);
+    padding: 10px;
+    margin: 10px 0;
+}
+li{
+    list-style: none;
+}
+.moduleTitle{
+    background-color: rgb(255, 215, 139);
+    margin: 10px;
+    padding: 10px;
+}

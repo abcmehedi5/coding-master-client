@@ -1,0 +1,84 @@
+.profileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  border: 4px solid rgb(202, 202, 202);
+  background-color: rgb(252, 244, 234);
+  margin: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.Profile-left {
+  background-color: rgb(130, 188, 236);
+  border-radius: 10px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Profile-left img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+.ProfileTable thead {
+  border: none;
+}
+
+.parsonalInfo {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  line-height: 20px;
+}
+
+/* post style start */
+.postContainer img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.Post-container{
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+/*  mobile responsive */
+@media only screen and (max-width: 600px) {
+  .Post-container{
+    width: 100%;
+  }
+}
+
+/*  tablet responsive */
+@media only screen and (max-width: 1024px) {
+  .Post-container{
+    width: 100%;
+  }
+}
+.post-img{
+  width: 50%;
+  height: 50%;
+  margin: auto;
+}
+.PostUserInfo{
+  line-height: 5px;
+  margin-left: 10px;
+}
+.post-footer{
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+/* post style end */
